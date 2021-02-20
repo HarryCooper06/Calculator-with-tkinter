@@ -26,7 +26,7 @@ def Equals():
     total=str(eval(operator))
     text_Input.set(total)
     operator=""
-
+#################################
 
     
 #################################
@@ -52,11 +52,9 @@ buttonDivide=Button(window,text="÷",width=8,bd=6,font=("arial",10,"bold"),bg="l
 buttonEqual=Button(window,text="=",width=33,bd=6,font=("arial",10,"bold"),bg="light green",height=8,command=Equals).grid(row=4,column=0,columnspan=2,padx=5,pady=5,sticky=W)
 buttonClear=Button(window,text="Clear",width=20,font=("arial",10,"bold"),bg="light green",bd=4,height=8,command=button_clear).grid(row=0,column=2,columnspan=2,padx=5,pady=5,sticky=E)
 
-###########################
-#Getting button clicks
 
 
-
+#Starting the main loop
 window.mainloop()
 
 #Created by Harry Cooper
