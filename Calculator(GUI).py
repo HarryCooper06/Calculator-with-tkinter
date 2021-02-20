@@ -59,5 +59,4 @@ buttonClear=Button(window,text="Clear",width=20,font=("arial",10,"bold"),bg="lig
 
 window.mainloop()
 
-
-
+#Created by Harry Cooper
